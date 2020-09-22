@@ -1,0 +1,38 @@
+{
+  "name": "squad-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.8.0",
+    "apollo-datasource-rest": "^0.9.3",
+    "apollo-server-express": "^2.16.1",
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^15.3.0",
+    "http-errors": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "apollo-server": "^2.16.1",
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "mock": "nodemon server.mock.js",
+    "es": "nodemon server.mock.es.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
